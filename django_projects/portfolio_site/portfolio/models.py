@@ -14,5 +14,5 @@ class Project(models.Model):
     url = models.URLField(blank=True)
     
     #returns the name in a more descriptive manner
-    def _str_(self):
+    def __str__(self):
         return self.title
