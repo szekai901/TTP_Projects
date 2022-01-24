@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'portfolio_site',
     'portfolio',
     'blog',
+    'exchange_rate_calculator',
 ]
 
 MIDDLEWARE = [
@@ -121,6 +122,7 @@ STATIC_URL = '/static/'
 STATIC_DIRS = [
 	BASE_DIR / 'quote_generator' / 'static', 
 	BASE_DIR / 'movie_booking' / 'static',
+    BASE_DIR / 'exchange_rate_calculator' / 'static',
 ]
 
 MEDIA_URL = '/media/'
